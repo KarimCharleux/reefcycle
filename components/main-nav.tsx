@@ -2,7 +2,8 @@
 
 import * as React from "react"
 import Link from "next/link"
-import { Menu, Waves } from "lucide-react"
+import Image from "next/image"
+import { Menu } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
@@ -13,8 +14,7 @@ export function MainNav() {
   return (
     <div className="flex w-full items-center justify-between">
       <Link href="/" className="flex items-center space-x-2">
-        <Waves className="h-6 w-6 text-primary" />
-        <span className="font-bold text-xl">ReefCycle</span>
+        <Image src="/reefcycle-long.png" alt="ReefCycle Logo" width={200} height={40} className="object-contain" />
       </Link>
       <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
         <Link href="/#about" className="transition-colors hover:text-primary">

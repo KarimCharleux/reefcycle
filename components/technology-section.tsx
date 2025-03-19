@@ -19,11 +19,11 @@ export function TechnologySection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-16 items-center">
           <div>
             <Image
-              src="/placeholder.svg?height=600&width=600"
-              alt="3D printed artificial reef structure"
-              width={600}
-              height={600}
-              className="rounded-lg shadow-lg"
+              src="/REEFCYCLE.png"
+              alt="ReefCycle Logo"
+              width={400}
+              height={400}
+              className="rounded-lg mx-auto"
             />
           </div>
           <div className="space-y-8">

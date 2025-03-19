@@ -1,5 +1,6 @@
 import Link from "next/link"
-import { Facebook, Globe, Instagram, Linkedin, Twitter, Waves, Youtube } from "lucide-react"
+import Image from "next/image"
+import { Facebook, Globe, Instagram, Linkedin, Twitter, Youtube } from "lucide-react"
 
 export function Footer() {
   return (
@@ -8,7 +9,7 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           <div className="space-y-4">
             <Link href="/" className="flex items-center space-x-2">
-              <Waves className="h-6 w-6 text-primary" />
+              <Image src="/REEFCYCLE.png" alt="ReefCycle Logo" width={40} height={40} className="object-contain" />
               <span className="font-bold text-xl">ReefCycle</span>
             </Link>
             <p className="text-sm text-muted-foreground">

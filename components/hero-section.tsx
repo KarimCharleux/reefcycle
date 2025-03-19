@@ -27,21 +27,21 @@ export function HeroSection() {
             suppressHydrationWarning
           />
         )}
-        <div className="absolute inset-0 bg-black/50" />
+        <div className="absolute inset-0 bg-black/60" />
       </div>
       <div className="container relative z-10 h-full flex items-center">
-        <div className="flex flex-col items-start gap-4 text-white">
-          <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl">
+        <div className="flex flex-col items-start gap-6 text-white bg-black/40 p-8 rounded-lg backdrop-blur-sm max-w-2xl">
+          <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-shadow">
             Transforming Concrete
             <br />
             <span className="text-primary">Reviving Oceans</span>
           </h1>
-          <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8 text-gray-300">
+          <p className="max-w-[42rem] leading-normal text-white sm:text-xl sm:leading-8 font-medium">
             ReefCycle transforms recycled concrete into intelligent artificial reefs, addressing construction waste
             management while restoring marine ecosystems.
           </p>
-          <div className="flex flex-wrap gap-4">
-            <Button asChild size="lg">
+          <div className="flex flex-wrap gap-4 mt-2">
+            <Button asChild size="lg" className="font-semibold">
               <Link href="/#technology">
                 Discover Our Technology
                 <ArrowRight className="ml-2 h-4 w-4" />
@@ -51,7 +51,7 @@ export function HeroSection() {
               asChild
               variant="outline"
               size="lg"
-              className="bg-background/20 hover:bg-background/40 border-white text-white"
+              className="bg-white/10 hover:bg-white/20 border-white text-white font-semibold"
             >
               <Link href="/#sponsorship">Become a Partner</Link>
             </Button>

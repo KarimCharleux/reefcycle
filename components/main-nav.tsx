@@ -3,7 +3,7 @@
 import * as React from "react"
 import Link from "next/link"
 import Image from "next/image"
-import { Menu } from "lucide-react"
+import {BarChart3, Menu} from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
@@ -31,6 +31,10 @@ export function MainNav() {
         </Link>
         <Link href="/#sponsorship" className="transition-colors hover:text-primary">
           Sponsorship
+        </Link>
+        <Link href="/business" className="transition-colors hover:text-primary flex items-center">
+          <BarChart3 className="mr-1 h-4 w-4" />
+          Business
         </Link>
         <Link href="/#contact" className="transition-colors hover:text-primary">
           Contact

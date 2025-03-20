@@ -1,7 +1,5 @@
 "use client"
 
-import "reactflow/dist/style.css"
-
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import Image from "next/image";
 import * as React from "react";

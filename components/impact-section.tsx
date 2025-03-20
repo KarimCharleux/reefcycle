@@ -67,7 +67,7 @@ export function ImpactSection() {
 
           <div className="order-1 md:order-2">
             <Image
-              src="/placeholder.svg?height=600&width=600"
+              src="/proto2.jpg"
               alt="Coral reef restoration impact"
               width={600}
               height={600}

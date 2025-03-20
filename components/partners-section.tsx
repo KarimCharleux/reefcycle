@@ -36,56 +36,6 @@ export function PartnersSection() {
           </TabsList>
 
           <TabsContent value="construction" className="mt-6">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center py-8">
-              <div className="flex flex-col items-center">
-                <div className="bg-background rounded-full p-4 mb-4">
-                  <Image
-                    src="/placeholder.svg?height=100&width=100"
-                    alt="Construction Partner 1"
-                    width={100}
-                    height={100}
-                    className="opacity-70 hover:opacity-100 transition-opacity"
-                  />
-                </div>
-                <span className="text-center font-medium">Partner Name</span>
-              </div>
-              <div className="flex flex-col items-center">
-                <div className="bg-background rounded-full p-4 mb-4">
-                  <Image
-                    src="/placeholder.svg?height=100&width=100"
-                    alt="Construction Partner 2"
-                    width={100}
-                    height={100}
-                    className="opacity-70 hover:opacity-100 transition-opacity"
-                  />
-                </div>
-                <span className="text-center font-medium">Partner Name</span>
-              </div>
-              <div className="flex flex-col items-center">
-                <div className="bg-background rounded-full p-4 mb-4">
-                  <Image
-                    src="/placeholder.svg?height=100&width=100"
-                    alt="Construction Partner 3"
-                    width={100}
-                    height={100}
-                    className="opacity-70 hover:opacity-100 transition-opacity"
-                  />
-                </div>
-                <span className="text-center font-medium">Partner Name</span>
-              </div>
-              <div className="flex flex-col items-center">
-                <div className="bg-background rounded-full p-4 mb-4">
-                  <Image
-                    src="/placeholder.svg?height=100&width=100"
-                    alt="Construction Partner 4"
-                    width={100}
-                    height={100}
-                    className="opacity-70 hover:opacity-100 transition-opacity"
-                  />
-                </div>
-                <span className="text-center font-medium">Partner Name</span>
-              </div>
-            </div>
             <Card>
               <CardHeader>
                 <CardTitle>Construction Partners</CardTitle>
@@ -105,56 +55,6 @@ export function PartnersSection() {
           </TabsContent>
 
           <TabsContent value="organizations" className="mt-6">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center py-8">
-              <div className="flex flex-col items-center">
-                <div className="bg-background rounded-full p-4 mb-4">
-                  <Image
-                    src="/placeholder.svg?height=100&width=100"
-                    alt="Environmental Organization 1"
-                    width={100}
-                    height={100}
-                    className="opacity-70 hover:opacity-100 transition-opacity"
-                  />
-                </div>
-                <span className="text-center font-medium">Organization Name</span>
-              </div>
-              <div className="flex flex-col items-center">
-                <div className="bg-background rounded-full p-4 mb-4">
-                  <Image
-                    src="/placeholder.svg?height=100&width=100"
-                    alt="Environmental Organization 2"
-                    width={100}
-                    height={100}
-                    className="opacity-70 hover:opacity-100 transition-opacity"
-                  />
-                </div>
-                <span className="text-center font-medium">Organization Name</span>
-              </div>
-              <div className="flex flex-col items-center">
-                <div className="bg-background rounded-full p-4 mb-4">
-                  <Image
-                    src="/placeholder.svg?height=100&width=100"
-                    alt="Environmental Organization 3"
-                    width={100}
-                    height={100}
-                    className="opacity-70 hover:opacity-100 transition-opacity"
-                  />
-                </div>
-                <span className="text-center font-medium">Organization Name</span>
-              </div>
-              <div className="flex flex-col items-center">
-                <div className="bg-background rounded-full p-4 mb-4">
-                  <Image
-                    src="/placeholder.svg?height=100&width=100"
-                    alt="Environmental Organization 4"
-                    width={100}
-                    height={100}
-                    className="opacity-70 hover:opacity-100 transition-opacity"
-                  />
-                </div>
-                <span className="text-center font-medium">Organization Name</span>
-              </div>
-            </div>
             <Card>
               <CardHeader>
                 <CardTitle>Environmental Organizations</CardTitle>
@@ -174,56 +74,6 @@ export function PartnersSection() {
           </TabsContent>
 
           <TabsContent value="research" className="mt-6">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center py-8">
-              <div className="flex flex-col items-center">
-                <div className="bg-background rounded-full p-4 mb-4">
-                  <Image
-                    src="/placeholder.svg?height=100&width=100"
-                    alt="Research Institution 1"
-                    width={100}
-                    height={100}
-                    className="opacity-70 hover:opacity-100 transition-opacity"
-                  />
-                </div>
-                <span className="text-center font-medium">Institution Name</span>
-              </div>
-              <div className="flex flex-col items-center">
-                <div className="bg-background rounded-full p-4 mb-4">
-                  <Image
-                    src="/placeholder.svg?height=100&width=100"
-                    alt="Research Institution 2"
-                    width={100}
-                    height={100}
-                    className="opacity-70 hover:opacity-100 transition-opacity"
-                  />
-                </div>
-                <span className="text-center font-medium">Institution Name</span>
-              </div>
-              <div className="flex flex-col items-center">
-                <div className="bg-background rounded-full p-4 mb-4">
-                  <Image
-                    src="/placeholder.svg?height=100&width=100"
-                    alt="Research Institution 3"
-                    width={100}
-                    height={100}
-                    className="opacity-70 hover:opacity-100 transition-opacity"
-                  />
-                </div>
-                <span className="text-center font-medium">Institution Name</span>
-              </div>
-              <div className="flex flex-col items-center">
-                <div className="bg-background rounded-full p-4 mb-4">
-                  <Image
-                    src="/placeholder.svg?height=100&width=100"
-                    alt="Research Institution 4"
-                    width={100}
-                    height={100}
-                    className="opacity-70 hover:opacity-100 transition-opacity"
-                  />
-                </div>
-                <span className="text-center font-medium">Institution Name</span>
-              </div>
-            </div>
             <Card>
               <CardHeader>
                 <CardTitle>Research Institutions</CardTitle>
@@ -243,56 +93,6 @@ export function PartnersSection() {
           </TabsContent>
 
           <TabsContent value="government" className="mt-6">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center py-8">
-              <div className="flex flex-col items-center">
-                <div className="bg-background rounded-full p-4 mb-4">
-                  <Image
-                    src="/placeholder.svg?height=100&width=100"
-                    alt="Government Entity 1"
-                    width={100}
-                    height={100}
-                    className="opacity-70 hover:opacity-100 transition-opacity"
-                  />
-                </div>
-                <span className="text-center font-medium">Entity Name</span>
-              </div>
-              <div className="flex flex-col items-center">
-                <div className="bg-background rounded-full p-4 mb-4">
-                  <Image
-                    src="/placeholder.svg?height=100&width=100"
-                    alt="Government Entity 2"
-                    width={100}
-                    height={100}
-                    className="opacity-70 hover:opacity-100 transition-opacity"
-                  />
-                </div>
-                <span className="text-center font-medium">Entity Name</span>
-              </div>
-              <div className="flex flex-col items-center">
-                <div className="bg-background rounded-full p-4 mb-4">
-                  <Image
-                    src="/placeholder.svg?height=100&width=100"
-                    alt="Government Entity 3"
-                    width={100}
-                    height={100}
-                    className="opacity-70 hover:opacity-100 transition-opacity"
-                  />
-                </div>
-                <span className="text-center font-medium">Entity Name</span>
-              </div>
-              <div className="flex flex-col items-center">
-                <div className="bg-background rounded-full p-4 mb-4">
-                  <Image
-                    src="/placeholder.svg?height=100&width=100"
-                    alt="Government Entity 4"
-                    width={100}
-                    height={100}
-                    className="opacity-70 hover:opacity-100 transition-opacity"
-                  />
-                </div>
-                <span className="text-center font-medium">Entity Name</span>
-              </div>
-            </div>
             <Card>
               <CardHeader>
                 <CardTitle>Government Entities</CardTitle>
